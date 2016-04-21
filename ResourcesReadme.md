@@ -20,6 +20,7 @@ There are two main views, both located in the shakeout/resources directory: reso
 Implementation is as easy as including the php files. The output of the files is stored in the `$divContent` variable so just assign that to a smarty box to place the view in that box. An example of implentation can be seen in the shakeout/howtoparticipate.php file.
 By default, the query will filter by the shakeout_region: California. If you wish to refine by a different region, just set `$shakeoutRegion` before you include the file. If you want to specify other filters, you should set `$resourceQueryParams`.
 `$resourceQueryParams` is an associative array that takes filter key, and filter value pairs. 
+
 **An example:**
 ````	
     $shakeoutEvent = 9999;
